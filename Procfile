@@ -1,1 +1,1 @@
-web: gunicorn login_system.wsgi
+web: gunicorn --preload login_system.wsgi:application
